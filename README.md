@@ -1,12 +1,31 @@
-<h1 align="center">The Vinyl Aficionado</h1>
+<h1 align="center"><strong>The Vinyl Aficionado</strong></h1>
 
-<h2 align="center">1st Milestone Project</h2>
+<h2>1st Milestone Project</h2>
 
 [View the live project here.] https ***
 
 The Vinyl Aficionado is a website aimed to attract vinyl enthusiasts in order to lead them to the purchase of vinyl records, vinyl accessories and/or clothing. 
 
-It is formed of 5 different pages: the Home page, the About Me page, the Shop page (each of the products in such page are linked to another website), Blog and Contact Us   
+It is formed of 5 different pages: the Home page, the About Me page, the Shop page (each of the products in such page are linked to another website), 
+
+Blog (each of the blogposts in such page are linked to another website) and Contact Us. The Vinyl Aficionado partners with therecordbloke.com, as it provides its visitors 
+
+with products from the latter site. I can confirm that I own therecordbloke.com and that I myself built the site using Wordpress.
+
+The Vinyl Aficionado has been designed to be responsive, intuitive and accessible on a range of devices, including smartphones, tablets and desktops/laptops. 
+
+## <h1 align="center"><strong>User Experience (UX)</strong></h1>
+
+## User stories:
+
+-  ### <h3>First Time Visitor Goals</h3>
+
+    1. As a First Time Visitor, I want to browse through the catalogue of products and make enquiries for items I want to purchase.
+    2. As a First Time Visitor, I want to analyse the site and evaluate how easy it is to navigate throught it in order to check the products and content.
+    3. As a First Time Visitor, I want to verify testimonials about the quality of the service and find out what real people think about the website. I will also corroborate
+all their social media channels by clicking on the social media icons displayed on the site, with the aim of getting a deeper insight of their followings on each of the social
+media platforms they are part of. 
+
 
 `python3 -m http.server`
 
