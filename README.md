@@ -2,11 +2,11 @@
 
 <h2 align="center">1st Milestone Project</h2>
 
-[View the live project here.]
+[View the live project here.] https ***
 
-## Gitpod Reminders
+The Vinyl Aficionado is a website aimed to attract vinyl enthusiasts in order to lead them to the purchase of vinyl records, vinyl accessories and/or clothing. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+It is formed of 5 different pages: the Home page, the About Me page, the Shop page (each of the products in such page are linked to another website), Blog and Contact Us   
 
 `python3 -m http.server`
 
