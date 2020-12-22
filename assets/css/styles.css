@@ -2,8 +2,21 @@
 
 body {
     font-family: "Lato" sans-serif;
+    margin: 0;
  }
 
  /* .................Headings */
 
+ a {
+     text-decoration: none;
+ }
  
+ .uppercase {
+     text-transform: uppercase;
+ }
+
+ .inline-block li{
+     display: inline-block ;
+     margin: 15px;
+     font-weight: 700;
+ }
