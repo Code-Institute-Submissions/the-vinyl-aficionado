@@ -6,11 +6,25 @@ body {
 
  /* .................Headings */
 
-.navbar-nav {
-    text-transform: uppercase;
-    margin: 0 auto;
+.navbar-expand-sm {
+    font-weight: 300;
+    font-size: small;
+    text-rendering: auto;
 }
 
+
+.navbar-nav {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 0 0 auto;
+    padding-right: 50px;
+}
+
+.nav-item, nav-link{
+    padding: 15px;     
+}
 
  img {
      height: 125px;
