@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300;400;700&display=swap');
 
 body {
-    font: "Lato" sans serif;
-    margin: 0;
+    font-family: "Lato" sans-serif;
 }
 
-.testimonial h5 {
-    display: inline-block;
+/*............ Headings*/
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 25px;
+    margin: 0 200px 0 auto;
+}
+
+.nav-item {
+    padding: 20px;
 }
