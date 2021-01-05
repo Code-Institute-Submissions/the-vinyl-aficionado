@@ -23,6 +23,12 @@ body {
     justify-content: right;
 }
 
+#dropdownMenu {
+    color: #777777;
+    padding: 8px;
+    margin-top: 10px;
+}
+
 /*...................... Headings*/
 
 .fa-hand-point-down {
@@ -102,3 +108,4 @@ body {
 #about-me {
     color: blue;
 }
+
