@@ -15,11 +15,12 @@ body {
     font-weight: 700;
     letter-spacing: 4px;
     font-size: 25px;
-    margin: 0 4em 0 auto;
+    margin: 0 2em 0 auto;
 }
 
 .nav-item {
-    padding: 20px;
+    padding: 10px;
+    justify-content: right;
 }
 
 /*...................... Headings*/
@@ -32,7 +33,33 @@ body {
     margin-top: 5px;
 }
 
-/*.............Media Queries*/
+/*...................................Media Queries*/
+
+@media (min-width: 576px) { 
+    .navbar-toggler {
+    display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .navbar-expand-sm {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    }
+}
+
+@media (max-width: 1270px) {
+    .nav-item {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 1270px) {
+    .navbar-nav {
+        margin: 0 0 0 auto;
+    }
+}
+
 
 @media (max-width: 576px) {
     .icons { display: inline;
@@ -51,7 +78,7 @@ body {
     }
 }
 
-/*.............Media Queries*/
+/*.............................................Media Queries*/
 
 .socials-items li {
     display: inline-block;
@@ -70,4 +97,8 @@ body {
     margin-top: -10px;
     margin-right: -30px;
     text-align: right;
+}
+
+#about-me {
+    color: blue;
 }
