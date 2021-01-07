@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 body {
-    font-family: "Lato" sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
-/*...................... Headings*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/*...................... Header*/
 
 .navbar-brand {
     margin-left: 40px;
@@ -30,6 +36,7 @@ body {
 }
 
 /*...................... Headings*/
+
 
 .fa-hand-point-down {
     display: block;
@@ -108,4 +115,12 @@ body {
 #about-me {
     color: blue;
 }
+
+.img-thumbnail {
+    width: 600px;
+    height: 600px;
+}
+
+
+
 
