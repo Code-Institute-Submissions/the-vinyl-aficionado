@@ -91,6 +91,7 @@ body {
     }
 }
 
+
 /*.............................................Media Queries*/
 
 .socials-items li {
@@ -116,10 +117,16 @@ body {
     color: blue;
 }
 
-.img-thumbnail {
-    width: 600px;
-    height: 600px;
+.picture-text-row {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
+
+.flex-reverse {
+    flex-direction: column-reverse;
+}
+
+
 
 
 
