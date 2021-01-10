@@ -122,9 +122,27 @@ body {
     margin-bottom: 5px;
 }
 
-.flex-reverse {
-    flex-direction: column-reverse;
+.first-vinyl-row {
+    background-color:rgb(255,173,110);
 }
+
+.second-vinyl-row {
+    background-color:rgb(163,255,194);
+}
+
+.third-vinyl-row {
+    background-color:rgb(255,173,110);
+}
+
+.img-vinyl {
+    margin-top: 10px;
+}
+
+.vinyl-title {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
 
 
 
