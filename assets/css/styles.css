@@ -143,6 +143,20 @@ body {
     margin-bottom: 20px;
 }
 
+.contactus-container {
+    height: 100vh;
+    background-image: url(../assets/images/mirta-fratnik-mUdgPzG4BG4-unsplash.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+    
+
 
 
 
