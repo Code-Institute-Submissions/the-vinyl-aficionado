@@ -36,6 +36,11 @@ body {
     margin-top: 10px;
 }
 
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: transparent;
+}
+
 /*...................... Headings*/
 
 
@@ -147,7 +152,7 @@ body {
 
 .contactus-container {
     height: 100vh;
-    background: url(assets/images/mirta-fratnik-mUdgPzG4BG4-unsplash.jpg) no-repeat bottom right fixed;
+    background: url(../images/mirta-fratnik-mUdgPzG4BG4-unsplash.jpg) no-repeat bottom right fixed;
     
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -160,6 +165,9 @@ body {
     position: relative;
 }
 
+.carousel-item {
+    height: 650px;
+}
 
 
     

@@ -6,9 +6,9 @@
 
 The Vinyl Aficionado is a website aimed to attract vinyl enthusiasts in order to lead them to the purchase of vinyl records, vinyl accessories and/or clothing. 
 
-It is formed of 5 different pages: the Home page, the About Me page, the Shop page (each of the products in such page are linked to another website), 
+It is formed of 4 different pages: the Home page, the About Me page, the Shop page (each of the products in such page are linked to another website), 
 
-Blog (each of the blogposts in such page are linked to another website) and Contact Us. The Vinyl Aficionado partners with therecordbloke.com, as it provides its visitors 
+ and Contact Us. The Vinyl Aficionado partners with therecordbloke.com, as it provides its visitors 
 
 with products from the latter site. I can confirm that I own therecordbloke.com and that I myself built the site using Wordpress.
 
