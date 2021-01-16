@@ -12,6 +12,11 @@ body {
 
 /*...................... Header*/
 
+.navbar {
+    background: rgb(126,126,138);
+    background: radial-gradient(circle, rgba(126,126,138,1) 0%, rgba(255,255,255,1) 70%, rgba(233,233,233,1) 100%);
+    border-bottom: 2px black thick;
+}
 
 .navbar-brand {
     margin-left: 40px;
@@ -30,6 +35,11 @@ body {
     justify-content: right;
 }
 
+.shop-link {
+    text-decoration: none;
+    color: #777777;
+}
+
 #dropdownMenu {
     color: #777777;
     padding: 8px;
@@ -42,6 +52,24 @@ body {
 }
 
 /*...................... Headings*/
+
+.newsletter-carousel {
+    background: #1FC58E;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.newsletter-carousel h1 {
+    color: #191414;
+    font-size: 100px;
+} 
+
+.newsletter-carousel p {
+    color: #191414;
+    font-size: 50px;
+}
 
 
 .fa-hand-point-down {
