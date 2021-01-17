@@ -53,6 +53,18 @@ body {
 
 /*...................... Headings*/
 
+.btn {
+    background-color: #FAE62D;
+    color: #191414;
+    font-weight: 700;
+}
+
+.fa-hand-point-down {
+    margin-bottom: 20px;
+    font-size: 50px;
+    
+}
+
 .newsletter-carousel {
     background: #1FC58E;
     display: flex;
@@ -64,11 +76,13 @@ body {
 .newsletter-carousel h1 {
     color: #191414;
     font-size: 100px;
+    font-weight: 900;
 } 
 
 .newsletter-carousel p {
     color: #191414;
     font-size: 50px;
+    font-weight: 800;
 }
 
 
@@ -127,6 +141,11 @@ body {
 
 
 /*.............................................Media Queries*/
+
+.headings {
+    text-transform: uppercase;
+    font-size: 50px;
+}
 
 .socials-items li {
     display: inline-block;
@@ -197,7 +216,10 @@ body {
     height: 650px;
 }
 
-
+.footer-container {
+    background: rgb(126,126,138);
+    background: radial-gradient(circle, rgba(126,126,138,1) 0%, rgba(255,255,255,1) 70%, rgba(233,233,233,1) 100%);
+}
     
 
 
