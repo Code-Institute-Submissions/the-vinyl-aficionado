@@ -194,6 +194,11 @@ body {
     text-align: right;
 }
 
+.vinyl-aficionado {
+    background: #1FC58E;
+    padding-bottom: 5px;
+}
+
 .heading-row {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -206,14 +211,14 @@ body {
     padding-bottom: 20px;
 }
 
-#about-me {
-    color: blue;
+.picture-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.vinyl-aficionado {
-    background: #1FC58E;
-    padding-bottom: 5px;
-}
+
 
 .gradient-border-testimonial {
     height: 300px;
@@ -252,6 +257,14 @@ body {
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+.contactus-row h1 {
+    color: #1FC58E;
+    font-size: 100px;
+    font-weight: 900;
+    align-items: center;
+    padding-top: 325px;
+}
+
 .contactus-container {
     height: 100vh;
     background: url(../images/mirta-fratnik-mUdgPzG4BG4-unsplash.jpg) no-repeat bottom right fixed;
@@ -265,6 +278,12 @@ body {
     align-items: top;
     justify-content: center;
     position: relative;
+}
+
+.get-in-touch-container {
+    background: #1FC58E;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .carousel-item {
