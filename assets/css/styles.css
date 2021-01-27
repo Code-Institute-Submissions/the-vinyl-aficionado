@@ -298,7 +298,22 @@ body {
 }
     
 
+/*....................flex footer.........*/
 
+.flex-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(126,126,138);
+    background: radial-gradient(circle, rgba(126,126,138,1) 0%, rgba(255,255,255,1) 70%, rgba(233,233,233,1) 100%);
+    border-bottom: 2px black thick;
+}
+
+.address-footer {
+    display: inline-flex;
+    align-items: center;
+}
 
 
 
