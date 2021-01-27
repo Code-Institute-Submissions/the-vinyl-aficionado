@@ -186,6 +186,7 @@ body {
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 #address p {
@@ -314,6 +315,11 @@ body {
     display: inline-flex;
     align-items: center;
 }
+
+#address-map-footer {
+    margin-left: 4rem;
+}
+
 
 
 
