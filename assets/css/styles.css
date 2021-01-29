@@ -51,6 +51,14 @@ body {
     border-color: transparent;
 }
 
+.hvr-underline-from-left:before {
+    background: #1FC58E;
+}
+
+a:hover {
+    color: rgba(0,0,0,.7);
+}
+
 /*...................... Headings*/
 
 .btn {
@@ -195,31 +203,49 @@ body {
     text-align: right;
 }
 
-.vinyl-aficionado {
+/*.............About Me...........................*/
+
+.aboutme-container {
     background: #1FC58E;
-    padding-bottom: 5px;
 }
 
-.heading-row {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.aboutme-title {
     text-align: center;
 }
 
-.picture-text-row {
+.aboutme-flex-container {
+    background: #1FC58E;
+    padding-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+}    
+
+.aboutme-text {
+    width: 670px;
+    height: 96px;
+    padding-left: 8rem;
+    text-align: justify;
 }
 
-.picture-text-container {
-    display: flex;
+.aboutme-picture-text {
+    display: inline-flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
+#row-reverse {
+    flex-direction: row-reverse;
+}
 
+#aboutme-text-reverse {
+    width: 670px;
+    height: 96px;
+    padding-right: 8rem;
+    text-align: justify;
+}
 
 .gradient-border-testimonial {
     height: 300px;
@@ -242,7 +268,7 @@ body {
     background-origin: border-box;
 	background-clip: content-box, border-box;
 	background-size: cover;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .vinyl-catalogue {
