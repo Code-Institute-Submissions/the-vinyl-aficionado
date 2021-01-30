@@ -10,7 +10,7 @@ body {
     border: 0;
 }
 
-/*...................... Header*/
+/*...................... Navigation bar............................*/
 
 .navbar {
     background: rgb(126,126,138);
@@ -35,15 +35,32 @@ body {
     justify-content: right;
 }
 
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.9);
+}
+
 .shop-link {
     text-decoration: none;
     color: #777777;
+}
+
+.dropdown-menu {
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 #dropdownMenu {
     color: #777777;
     padding: 8px;
     margin-top: 10px;
+}
+
+.dropdown-menu-dark {
+    background: radial-gradient(circle, rgba(126,126,138,1) 0%, rgba(255,255,255,1) 70%, rgba(233,233,233,1) 100%);
+}
+
+.dropdown-menu-dark .dropdown-item {
+    color: #777777;
 }
 
 .navbar-light .navbar-toggler {
@@ -55,8 +72,12 @@ body {
     background: #1FC58E;
 }
 
+.dropdown-menu-dark .dropdown-item:focus, .dropdown-menu-dark .dropdown-item:hover {
+    color: rgb(0, 0, 0);
+}
+
 a:hover {
-    color: rgba(0,0,0,.7);
+    color: rgba(0,0,0,.9);
 }
 
 /*...................... Headings*/
@@ -67,10 +88,18 @@ a:hover {
     font-weight: 700;
 }
 
-.fa-hand-point-down {
-    margin-bottom: 20px;
-    font-size: 50px;
-    
+#btn-newsletter {
+    background-color: #FAE62D;
+}
+
+.btn-secondary:hover {
+    color: #191414;
+}
+
+.fab, .far {
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: 1rem;
 }
 
 .newsletter-carousel {
@@ -94,6 +123,10 @@ a:hover {
     font-weight: 800;
 }
 
+.image-brightness {
+    filter: brightness(55%);
+}
+
 .carousel-caption h1 {
     color: #1FC58E;
     font-size: 100px;
@@ -107,6 +140,8 @@ a:hover {
 }
 
 
+
+
 .fa-hand-point-down {
     display: block;
 }
@@ -114,54 +149,6 @@ a:hover {
 .btn-lg {
     margin-top: 5px;
 }
-
-/*...................................Media Queries*/
-
-@media (min-width: 576px) { 
-    .navbar-toggler {
-    display: none;
-    }
-}
-
-@media (min-width: 576px) {
-    .navbar-expand-sm {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    }
-}
-
-@media (max-width: 1270px) {
-    .nav-item {
-        padding: 5px;
-    }
-}
-
-@media (max-width: 1270px) {
-    .navbar-nav {
-        margin: 0 0 0 auto;
-    }
-}
-
-
-@media (max-width: 576px) {
-    .icons { display: inline;
-             text-align: center;
-             float: right;   
-    }
-}
-
-@media (max-width: 992px) {
-    .col { display: none;
-    }
-}
-
-@media (min-width: 992px) {
-    .socials-only-sm { display: none;
-    }
-}
-
-
-/*.............................................Media Queries*/
 
 .headings {
     text-transform: uppercase;
@@ -181,20 +168,6 @@ a:hover {
 
 .media-body {
     padding-top: 30px;
-}
-
-.socials-items li {
-    display: inline-block;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 15px;
-}
-
-.get-social {
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-align: center;
 }
 
 #address p {
@@ -346,7 +319,99 @@ a:hover {
     margin-left: 4rem;
 }
 
+.social-link {
+    color: #212529;
+    text-decoration: none;
+}
 
+.socials-items li {
+    display: inline-block;
+    font-weight: 700;
+    margin: 15px;
+}
+
+.get-social {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/*...................................Media Queries*/
+
+@media (min-width: 576px) { 
+    .navbar-toggler {
+    display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .navbar-expand-sm {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    }
+}
+
+@media (max-width: 1270px) {
+    .nav-item {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 1270px) {
+    .navbar-nav {
+        margin: 0 0 0 auto;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .icons { 
+        display: none;
+    }
+    #address-map-footer {
+        display: none;
+    }
+    .socials-footer {
+        width: 100%;
+        order: 1;
+    }
+    .logo-footer .address-footer {
+        order: 3;
+        display: inline-flex;
+    }
+}
+
+@media (max-width: 768px) {
+    #address-map-footer {
+        display: none;
+    }
+    .socials-footer {
+        width: 100%;
+        order: 1;
+    }
+    .logo-footer .address-footer {
+        order: 3;
+        display: inline-flex;
+        width: 50%;
+    }
+    .socials-items {
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .col { display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .socials-only-sm { display: none;
+    }
+}
+
+
+/*.............................................Media Queries*/
 
 
 
