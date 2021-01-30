@@ -63,6 +63,10 @@ body {
     color: #777777;
 }
 
+.navbar-toggler-icon {
+    width: 2.5em;
+}
+
 .navbar-light .navbar-toggler {
     color: rgba(0,0,0,.55);
     border-color: transparent;
@@ -366,8 +370,21 @@ a:hover {
 
 
 @media (max-width: 576px) {
+    .newsletter-carousel {
+        padding-top: 20px;
+    }
+    .newsletter-carousel h1 {
+        font-size: 50px;
+        width: 100%;
+    }
+    .carousel-caption h1 {
+        font-size: 50px;
+    }
     .icons { 
         display: none;
+    }
+    .media-body {
+        padding-bottom: 1.5rem;
     }
     #address-map-footer {
         display: none;
