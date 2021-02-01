@@ -161,6 +161,10 @@ a:hover {
     margin-top: 5px;
 }
 
+.btn-check:focus+.btn-secondary, .btn-secondary:focus {
+    color: #191414;
+}
+
 /*..................................................Buttons*/
 
 /*...................... Font Awesome Icons......................*/
