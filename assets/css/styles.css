@@ -148,8 +148,13 @@ a:hover {
     margin-top: 20px;
 }
 
-.btn-secondary:hover {
+#btn-newsletter:hover {
     color: #191414;
+}
+
+.btn-secondary:hover {
+    color:#1FC58E;
+    background-color: #191414;
 }
 
 .btn-lg {
@@ -273,6 +278,11 @@ a:hover {
 }
 
 /*.............Shop, Vinyl...........................*/
+
+.vinyl-container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 .vinyl-catalogue {
     background: #1FC58E;
