@@ -57,6 +57,7 @@ body {
 
 /*.........................Dropdown Menu.............................*/
 
+
 .dropdown-menu {
     font-size: 1.25rem;
     font-weight: 700;
@@ -68,12 +69,8 @@ body {
     margin-top: 10px;
 }
 
-.dropdown-menu-dark {
-    background: radial-gradient(circle, rgba(126,126,138,1) 0%, rgba(255,255,255,1) 70%, rgba(233,233,233,1) 100%);
-}
-
 .dropdown-menu-dark .dropdown-item {
-    color: #777777;
+    color: #ffffff;
 }
 
 /*.......................................................Dropdown Menu*/
@@ -85,11 +82,12 @@ body {
 }
 
 .dropdown-menu-dark .dropdown-item:focus, .dropdown-menu-dark .dropdown-item:hover {
-    color: rgb(0, 0, 0);
+    color: #ffffff;
+    background-color: transparent;
 }
 
 a:hover {
-    color: rgba(0,0,0,.9);
+    color:rgba(0,0,0,.9);
 }
 
 /*..............................................Hover effects*/
@@ -125,12 +123,14 @@ a:hover {
     color: #1FC58E;
     font-size: 100px;
     font-weight: 900;
+    padding-bottom: 100px;
 }
 
 .carousel-caption p {
     color: #1FC58E;
     font-size: 50px;
     font-weight: 800;
+    padding-bottom: 100px;
 }
 
 /*..............................................Carousel Slider*/
@@ -153,7 +153,7 @@ a:hover {
 }
 
 .btn-secondary:hover {
-    color:#1FC58E;
+    color:#ffffff;
     background-color: #191414;
 }
 
@@ -162,17 +162,23 @@ a:hover {
 }
 
 .btn-check:focus+.btn-secondary, .btn-secondary:focus {
-    color: #191414;
+    color:#191414;
+    background-color: #1FC58E;
 }
 
 /*..................................................Buttons*/
 
 /*...................... Font Awesome Icons......................*/
 
-.fab, .far {
+.far {
     font-weight: 400;
     font-size: 2rem;
     letter-spacing: 1rem;
+}
+
+.fab {
+    font-size: 3rem;
+    padding: 0 10px;
 }
 
 .fa-hand-point-down {
@@ -257,22 +263,11 @@ a:hover {
 
 /*.................................................About Me*/
 
-.gradient-border-testimonial {
-    height: 300px;
-    width: 300px;
-    border: #FAE62D calc(16px + 0.2vw) solid;
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 30%;
-    background-origin: border-box;
-	background-clip: content-box, border-box;
-	background-size: cover;
-	box-sizing: border-box;
-}
+/*.............Gradient border images.........*/
+
 
 .gradient-border {
-    height: 500px;
-    width: 500px;
-    border: #FAE62D calc(16px + 0.2vw) solid;
+    border: #FAE62D calc(6px + 0.2vw) solid;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
     border-radius: 30%;
     background-origin: border-box;
@@ -280,6 +275,8 @@ a:hover {
 	background-size: cover;
     box-sizing: border-box;
 }
+
+/*.........................................Gradient border images*/
 
 /*.............Shop, Vinyl...........................*/
 
@@ -363,6 +360,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    padding-top: 30px;
     background: rgb(126,126,138);
     background: radial-gradient(circle, rgba(126,126,138,1) 0%, rgba(255,255,255,1) 70%, rgba(233,233,233,1) 100%);
     border-bottom: 2px black thick;
@@ -375,6 +373,7 @@ a:hover {
 
 #address-map-footer {
     margin-left: 4rem;
+    margin-bottom: 17px;
 }
 
 .social-link {
@@ -436,8 +435,12 @@ a:hover {
         padding-bottom: 30px;
         width: 100%;
     }
+    .carousel-caption p {
+        margin-bottom: 0px;
+        padding-bottom: 60px;
+    }
     .carousel-caption span {
-        font-size: 1.30rem;
+        font-size: 1.40rem;
     }
     #turntable-carousel h1 {
         width: 100%;
@@ -446,12 +449,15 @@ a:hover {
     }
     #turntable-carousel p {
         line-height: 1.2;
+        padding-bottom: 40px;
+        margin-bottom: 0px;
     }
     .icons { 
         display: none;
     }
     .media-body {
         padding-bottom: 1.5rem;
+        padding-top: inherit;
     }
     .shop-headings {
         padding-top: 0px;
@@ -494,6 +500,12 @@ a:hover {
         width: 100%;
         order: 1;
     }
+    .fab {
+        padding: 0 5px;
+    }
+    .socials-items {
+        padding-left: 0px;
+    }
     .logo-footer .address-footer {
         order: 3;
         display: inline-flex;
@@ -515,6 +527,9 @@ a:hover {
     }
     .socials-items {
         text-align: center;
+    }
+    .newsletter-carousel {
+        padding-top: 0px;
     }
 }
 
