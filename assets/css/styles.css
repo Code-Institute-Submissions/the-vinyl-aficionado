@@ -513,9 +513,6 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-    #address-map-footer {
-        display: none;
-    }
     .socials-footer {
         width: 100%;
         order: 1;
