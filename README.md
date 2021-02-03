@@ -2,19 +2,53 @@
 
 <h2>1st Milestone Project</h2>
 
-[View the live project here.] https ***
+[View the live project here](https://josecastanocoding.github.io/the-vinyl-aficionado/)
 
 The Vinyl Aficionado is a website aimed to attract vinyl enthusiasts in order to lead them to the purchase of vinyl records, vinyl accessories and/or clothing. 
 
-It is formed of 4 different pages: the Home page, the About Me page, the Shop page (each of the products in such page are linked to another website), 
+The Vinyl Aficionado also offers the possibility for potential customers to sign up for a newsletter,  so a database of potential customers can be elaborated and ,furthermore, those who join can be targeted at some stage with promotions and marketing campaigns.
 
- and Contact Us. The Vinyl Aficionado partners with therecordbloke.com, as it provides its visitors 
+The website has been designed to be responsive, intuitive and accessible on a range of devices, including smartphones, tablets and desktops/laptops.
 
-with products from the latter site. I can confirm that I own therecordbloke.com and that I myself built the site using Wordpress.
+---
 
-The Vinyl Aficionado has been designed to be responsive, intuitive and accessible on a range of devices, including smartphones, tablets and desktops/laptops. 
+## Table of contents
 
-## <h1 align="center"><strong>User Experience (UX)</strong></h1>
+1. [**User Experience (UX)**](#ux)
+    - [**User stories**](#user-stories)
+    - [**Design**](#design)
+        - [**Colour Scheme**](#colour-scheme)
+        - [**Typography**](#typography)
+        - [**Imagery**](#imagery)
+    - [**Wireframes**](#wireframes)
+    - [**Surface**](#surface)
+    
+2. [**Features**](#features)
+    - [**Existing features**](#existing-features)
+    - [**Features left to implement**](#features-left-to-implement)
+
+3. [**Technologies Used**](#technologies-used)
+
+4. [**Testing**](#testing)
+    - [**Testing documentation can be found here in a seperate file**](TESTING.md)
+
+5. [**Deployment**](#deployment)
+
+6. [**Credits**](#credits)
+    - [**Content**](#content)
+    - [**Resources**](#resources)
+    - [**Media**](#media)
+    - [**Acknowledgements**](#acknowledgements)
+
+---
+
+## User Experience (UX)
+
+The Vinyl Aficionado partners with [therecordbloke.com](https://therecordbloke.com), as it provides its visitors with products from the latter site. I can confirm that I own [therecordbloke.com](https://therecordbloke.com) and that I myself built the site using Wordpress.
+
+The Vinyl Aficionado also counts with another partner to provide clothing items. Such partner is [wastedheroes-shop.com](https://www.wastedheroes-shop.com/), however this is purely fictional and only used for the educational purpose of adding value to The Vinyl Aficionado. 
+
+I can also confirm that I am not an affiliate of [wastedheroes-shop.com](https://www.wastedheroes-shop.com/)
 
 ## User stories:
 
@@ -26,39 +60,25 @@ The Vinyl Aficionado has been designed to be responsive, intuitive and accessibl
 all their social media channels by clicking on the social media icons displayed on the site, with the aim of getting a deeper insight of their followings on each of the social
 media platforms they are part of. 
 
+-  ### <h3>Returning Visitor Goals</h3>
 
-`python3 -m http.server`
+    1. As a Returning Visitor, I might want to place an order or follow up on an enquiry I recently made.
+    2. As a Returning Visitor, I want to check any possible new releases or products available on the website.
+    3. As a Returning Visitor, I want to keep up with any promotions running via the official social media accounts of The Vinyl Aficionado website.
 
-A blue button should appear to click: *Make Public*,
+## Design
 
-Another blue button should appear to click: *Open Browser*.
+- ### <h3>Colour Scheme</h3>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+I did some research online and came across an article about the 50 best website color schemes for 2021 - [link here](https://designshack.net/articles/trends/best-website-color-schemes/). I picked a combination of colours that I consider to be eye-catching,
+and that it has a certain e-commerce retail finish. 
 
-A blue button should appear to click: *Make Public*,
+![colours used from the link provided](assets/images/readme-images-and-documentation/TVA 1st slide.PNG)
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
