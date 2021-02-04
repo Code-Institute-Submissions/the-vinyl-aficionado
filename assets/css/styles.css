@@ -73,7 +73,6 @@ body {
 
 /*.........................Dropdown Menu.............................*/
 
-
 .dropdown-menu {
     font-size: 1.25rem;
     font-weight: 700;
@@ -448,9 +447,6 @@ a:hover {
         padding-bottom: 40px;
         margin-bottom: 0px;
     }
-    .icons { 
-        display: none;
-    }
     .media-body {
         padding-bottom: 1.5rem;
         padding-top: inherit;
@@ -511,7 +507,8 @@ a:hover {
     }
 }
 
-@media (min-width: 576px) {
+
+@media (min-width: 576px) and (max-width: 768px) {
     .navbar-toggler {
         display: none;
     }
@@ -523,13 +520,8 @@ a:hover {
         letter-spacing: 1.5px;
         padding-left: 15px;
     }
-}
-
-
-
-@media (max-width: 768px) {
     .dropdown {
-        padding-bottom: 14px;
+        padding-bottom: 5px;
     }
     .navbar-brand {
         margin-left: 0px;
