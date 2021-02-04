@@ -10,6 +10,22 @@ body {
     border: 0;
 }
 
+/*....................Colour Scheme................................*/
+
+.background-colour {
+    background: #1FC58E;
+}
+
+.carousel-text-colour {
+    color: #1FC58E;
+}
+
+.newsletter-carousel-text {
+    color: #191414;
+}
+
+/*................................................... Colour Scheme*/
+
 /*...................... Navigation bar............................*/
 
 .navbar {
@@ -53,7 +69,7 @@ body {
     border-color: transparent;
 }
 
-/*.........................................................Navigation bar*/
+/*......................................................... Navigation bar*/
 
 /*.........................Dropdown Menu.............................*/
 
@@ -73,9 +89,9 @@ body {
     color: #ffffff;
 }
 
-/*.......................................................Dropdown Menu*/
+/*....................................................... Dropdown Menu*/
 
-/*............................Hover effects.................*/
+/*............................Hover effects..........................*/
 
 .hvr-underline-from-left:before {
     background: #1FC58E;
@@ -90,13 +106,31 @@ a:hover {
     color:rgba(0,0,0,.9);
 }
 
-/*..............................................Hover effects*/
+/*.............................................. Hover effects*/
+
+/*............................Headings..........................*/
+
+
+.headings {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.subheading {
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+/*.................................................. Headings*/
 
 /*............................Carousel Slider..............*/
 
 .newsletter-carousel {
     padding-top: 100px;
-    background: #1FC58E;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -104,13 +138,11 @@ a:hover {
 }
 
 .newsletter-carousel h1 {
-    color: #191414;
     font-size: 100px;
     font-weight: 900;
 } 
 
 .newsletter-carousel p {
-    color: #191414;
     font-size: 50px;
     font-weight: 800;
 }
@@ -120,22 +152,21 @@ a:hover {
 }
 
 .carousel-caption h1 {
-    color: #1FC58E;
     font-size: 100px;
     font-weight: 900;
     padding-bottom: 100px;
 }
 
 .carousel-caption p {
-    color: #1FC58E;
     font-size: 50px;
     font-weight: 800;
-    padding-bottom: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 90px;
 }
 
-/*..............................................Carousel Slider*/
+/*.............................................. Carousel Slider*/
 
-/*...................... Buttons......................*/
+/*...................... Buttons.................................*/
 
 .btn {
     background-color: #1FC58E;
@@ -166,7 +197,7 @@ a:hover {
     background-color: #1FC58E;
 }
 
-/*..................................................Buttons*/
+/*........................................................Buttons*/
 
 /*...................... Font Awesome Icons......................*/
 
@@ -187,46 +218,32 @@ a:hover {
 
 /*............................................Font Awesome Icons*/
 
-.headings {
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: 700;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-.subheading {
-    font-size: 35px;
-    font-weight: 500;
-
-}
-
-.shop-container {
-    padding-bottom: 30px;
-}
+/*.............................Testimonials and shop.............*/
 
 .media-body {
     padding-top: 30px;
 }
 
-#address p {
-    margin-top: -10px;
-    margin-right: -30px;
-    text-align: right;
+.testimonials-shop {
+    background-color:rgb(220, 224, 212);
+    padding-bottom: 30px;
 }
 
-/*.............About Me...........................*/
-
-.aboutme-container {
-    background: #1FC58E;
+.testimonial-text {
+    text-align: justify;
+    font-size: 1.5rem;
+    padding: 0 30px;
 }
+
+/*............................................ Testimonials and shop*/
+
+/*.............About Me..........................................*/
 
 .aboutme-title {
     text-align: center;
 }
 
 .aboutme-flex-container {
-    background: #1FC58E;
     padding-bottom: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -261,9 +278,9 @@ a:hover {
     font-size: 1.5rem;
 }
 
-/*.................................................About Me*/
+/*.......................................................About Me*/
 
-/*.............Gradient border images.........*/
+/*................................Gradient border images.........*/
 
 
 .gradient-border {
@@ -276,17 +293,16 @@ a:hover {
     box-sizing: border-box;
 }
 
-/*.........................................Gradient border images*/
+/*......................................... Gradient border images*/
 
-/*.............Shop, Vinyl...........................*/
+/*....................Shop........................................*/
 
-.vinyl-container {
+.shop-container {
     padding-left: 0px;
     padding-right: 0px;
 }
 
-.vinyl-catalogue {
-    background: #1FC58E;
+.shop-catalogue {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -300,7 +316,7 @@ a:hover {
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-/*.......................................Shop, Vinyl*/
+/*................................................. Shop*/
 
 /*.............Contact Us...........................*/
 
@@ -376,6 +392,12 @@ a:hover {
     margin-bottom: 17px;
 }
 
+#address p {
+    margin-top: -10px;
+    margin-right: -30px;
+    text-align: right;
+}
+
 .social-link {
     color: #212529;
     text-decoration: none;
@@ -396,32 +418,6 @@ a:hover {
 
 /*...................................Media Queries*/
 
-@media (min-width: 576px) { 
-    .navbar-toggler {
-    display: none;
-    }
-}
-
-@media (min-width: 576px) {
-    .navbar-expand-sm {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    }
-}
-
-@media (max-width: 1270px) {
-    .nav-item {
-        padding: 5px;
-    }
-}
-
-@media (max-width: 1270px) {
-    .navbar-nav {
-        margin: 0 0 0 auto;
-    }
-}
-
-
 @media (max-width: 576px) {
     .newsletter-carousel {
         padding-top: 20px;
@@ -432,7 +428,7 @@ a:hover {
     }
     .carousel-caption h1 {
         font-size: 50px;
-        padding-bottom: 30px;
+        padding-bottom: 0px;
         width: 100%;
     }
     .carousel-caption p {
@@ -484,6 +480,9 @@ a:hover {
         font-size: 1.35rem;
         padding-left: 0;
     }
+    .card {
+        margin-bottom: 30px;
+    }
     .contactus-row h1 {
         text-align: center;
     }
@@ -512,7 +511,61 @@ a:hover {
     }
 }
 
+@media (min-width: 576px) {
+    .navbar-toggler {
+        display: none;
+    }
+    .navbar-expand-sm .navbar-nav {
+        flex-direction: row;      
+        justify-content: flex-end;
+        margin: 0;
+        align-items: center;
+        letter-spacing: 1.5px;
+        padding-left: 15px;
+    }
+}
+
+
+
 @media (max-width: 768px) {
+    .dropdown {
+        padding-bottom: 14px;
+    }
+    .navbar-brand {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 15px;
+    }
+    .nav-item {
+        padding: 0px;
+    }
+    .carousel-caption h1 {
+        font-size: 75px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .carousel-caption span {
+        font-size: xx-large;
+    }
+    .aboutme-picture-text, #row-reverse {
+        flex-direction: column;
+    }
+    .aboutme-text {
+        padding-left: 0px;
+        padding-top: 40px;
+        margin-bottom: 0px;
+    }
+    #aboutme-text-reverse {
+        padding-right: 0px;
+        padding-top: 40px;
+    }
+    .my-5 {
+        margin-bottom: 0px;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
     .socials-footer {
         width: 100%;
         order: 1;
@@ -527,16 +580,6 @@ a:hover {
     }
     .newsletter-carousel {
         padding-top: 0px;
-    }
-}
-
-@media (max-width: 992px) {
-    .col { display: none;
-    }
-}
-
-@media (min-width: 992px) {
-    .socials-only-sm { display: none;
     }
 }
 
