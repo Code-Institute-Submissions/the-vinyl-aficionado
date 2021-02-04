@@ -80,10 +80,25 @@ It is the main background colour of all the pages but the home page. Also used a
 - <strong>Color Hex Yellow (#FAE62D)</strong> : Used as the background colour of the first call-to-action button on the first slide of the carousel. It is the colour I used for the borders
 of all the images displayed on the following pages: "Home", "About Me" and "Shop".
 - <strong>Color Hex Black (#191414)</strong> : Used as the font colour for the text on the first slide of the carousel, headings and subheadings and all the text on the website with the exception of the navigation bar and footer.
+- <strong>Radial Gradient</strong> : Used as the background colour of both the navigation bar and footer. Combination used: rgb(126,126,138) + radial-gradient(circle, rgba(126,126,138,1) 0%, rgba(255,255,255,1) 70%, rgba(233,233,233,1) 100%).
+
+Other colours I have used:
+
+- <strong>Color Hex Dark Grey (#777777)</strong> : Used as the font colour for the items of the navigation bar and the items in the footer.
+- <strong>Color Hex White (#ffffff)</strong> : Used for the hover effect on all the buttons and for the items included in the dropdown menu of the shop.
+- <strong>RGB rgb(220, 224, 212)</strong> : Used as the background colour of the home page section just underneath the carousel slider. 
+
+- ### <h3>Typography</h3>
+
+The font I used for all the website is "Space Grotesk".
+
+![](https://josecastanocoding.github.io/the-vinyl-aficionado/assets/images/readme-images-and-documentation/Font.PNG)
 
 
 
+- ### <h3>Imagery</h3>
 
+All the images I used for my project can be found in the following [link](https://github.com/JoseCastanoCoding/the-vinyl-aficionado/tree/e36682f0c070a067729a8305fd315045e98e3adf/assets/images) Every page of the website has its folder that contains all the pictures I used.
 
 
 
