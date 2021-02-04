@@ -73,9 +73,13 @@ media platforms they are part of.
 I did some research online and came across an article about the 50 best website color schemes for 2021 - [link here](https://designshack.net/articles/trends/best-website-color-schemes/). I picked a combination of colours that I consider to be eye-catching,
 and that it has a certain e-commerce retail finish. 
 
-![main combination of colours used in my site](https://josecastanocoding.github.io/the-vinyl-aficionado/assets/images/readme-images-and-documentation/PhototasticCollageTVAcolourscheme.jpg)
+There are 4 dominant colours that can be identified on my site:
 
-![site colour palette]
+- <strong>Deep emerald (#1FC58E)</strong> : Used as the background colour for the first slide of the carousel, and as the font color of the remaining slides within the carousel.
+It is the main background colour of all the pages but the home page. Also used as background colour for all the call-to-action buttons.
+- <strong>Color Hex Yellow (#FAE62D)</strong> : Used as the background colour of the first call-to-action button on the first slide of the carousel. It is the colour I used for the borders
+of all the images displayed on the following pages: "Home", "About Me" and "Shop".
+- <strong>Color Hex Black (#191414)</strong> : Used as the font colour for the text on the first slide of the carousel, headings and subheadings and all the text on the website with the exception of the navigation bar and footer.
 
 
 
