@@ -523,6 +523,7 @@ a:hover {
     }
     .dropdown {
         padding-bottom: 5px;
+        list-style-type: text;
     }
     .navbar-brand {
         margin-left: 0px;
