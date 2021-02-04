@@ -73,7 +73,9 @@ media platforms they are part of.
 I did some research online and came across an article about the 50 best website color schemes for 2021 - [link here](https://designshack.net/articles/trends/best-website-color-schemes/). I picked a combination of colours that I consider to be eye-catching,
 and that it has a certain e-commerce retail finish. 
 
-![colours used from the link provided](assets/images/readme-images-and-documentation/TVA 1st slide.PNG)
+![main combination of colours used in my site](assets/images/mirta-fratnik-mUdgPzG4BG4-unsplash.jpg)
+
+
 
 
 
