@@ -16,7 +16,7 @@ The website has been designed to be responsive, intuitive and accessible on a ra
 
 ## Table of contents
 
-1. [**User Experience (UX)**](#ux)
+1. [**User Experience**](#user-experience)
     - [**User stories**](#user-stories)
     - [**Design**](#design)
         - [**Colour Scheme**](#colour-scheme)
@@ -47,7 +47,7 @@ The website has been designed to be responsive, intuitive and accessible on a ra
 
 ---
 
-## User Experience (UX)
+## User Experience
 
 The Vinyl Aficionado partners with [therecordbloke.com](https://therecordbloke.com), as it provides its visitors with products from the latter site. I can confirm that I own [therecordbloke.com](https://therecordbloke.com) and that I myself built the site using Wordpress.
 
@@ -55,7 +55,7 @@ The Vinyl Aficionado also counts with another partner to provide clothing items.
 
 I can also confirm that I am not an affiliate of [wastedheroes-shop.com](https://www.wastedheroes-shop.com/)
 
-## User stories:
+## User stories
 
 -  ### <h3>First Time Visitor Goals</h3>
 
@@ -95,11 +95,13 @@ Other colours I have used:
 - <strong>Color Hex White (#ffffff)</strong> : Used for the hover effect on all the buttons and for the items included in the dropdown menu of the shop.
 - <strong>RGB rgb(220, 224, 212)</strong> : Used as the background colour of the home page section just underneath the carousel slider. 
 
+<img src="assets/images/readme-images-and-documentation/secondarycolourcombo.jpg" width="200" height="200" />
+
 - ### <h3>Typography</h3>
 
 The font I used for all the website is "Space Grotesk".
 
-<img src="assets/images/readme-images-and-documentation/Font.png" width="1000" height="200" />
+<img src="assets/images/readme-images-and-documentation/Font.png" width="1000" height="150" />
 
 - ### <h3>Imagery</h3>
 
@@ -159,6 +161,7 @@ party called [wastedheroes-shop.com](https://www.wastedheroes-shop.com/). The ca
 
 - Hover effects : [Hover.css](https://ianlunn.github.io/Hover/#effects)
 
+- Colour Schemer : [colourschemer](https://www.colorschemer.com/rgb-color-codes/)
 
 ##### back to [contents](#table-of-contents)  
 
@@ -180,8 +183,10 @@ party called [wastedheroes-shop.com](https://www.wastedheroes-shop.com/). The ca
 
  <img src="assets/images/readme-images-and-documentation/errorhtml.PNG" width="1000" height="300" />
 
- After trying numerous types of fixes, I eventually managed to cut some code from Bootstrap navbar documentation and embedded it onto my existing navbar code I previously extracted from Bootstrap. The problem of a div element being a child of an ul was solved
+ After trying numerous types of fixes, I eventually managed to cut some code from [Bootstrap navbar documentation](https://getbootstrap.com/docs/5.0/components/dropdowns/) and embedded it onto my existing navbar code I previously extracted from Bootstrap. The problem of a div element being a child of an ul was solved
  by changing the div element by a li, which will perfectly fit as a child of an ul. My original classes and id's were kept as they did not need to change at all.
+
+ You can check my clean, no-errors HTML [here](https://validator.w3.org/nu/#textarea)
 
  In regards to the CSS, no errors. Please see below: 
 
@@ -234,7 +239,7 @@ The markup of my HTML showed (as previously mentioned) a piece of non-valid code
 ---
 ## Deployment
 
-**GitHub Pages**
+### GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps...
 
@@ -245,7 +250,7 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
-**Forking**
+### Forking
 
 You may wish to contribute to this website and have your contribution published, if so, you are welcome to follow these steps below.
 
@@ -254,7 +259,7 @@ You may wish to contribute to this website and have your contribution published,
 3. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 4. You should now have a copy of the original repository in your GitHub account.
 
-**Making a Local Clone**
+### Making a Local Clone
 
 If you prefer working on the repository locally, you can clone the repository to your desktop by the following steps.
 
