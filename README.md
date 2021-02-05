@@ -4,6 +4,8 @@
 
 [View the live project here](https://josecastanocoding.github.io/the-vinyl-aficionado/)
 
+<img src="assets/images/readme-images-and-documentation/mockupproject.PNG" width="600" height="400" />
+
 The Vinyl Aficionado is a website aimed to attract vinyl enthusiasts in order to lead them to the purchase of vinyl records, vinyl accessories and/or clothing. 
 
 The Vinyl Aficionado also offers the possibility for potential customers to sign up for a newsletter,  so a database of potential customers can be elaborated and ,furthermore, those who join can be targeted at some stage with promotions and marketing campaigns.
@@ -32,6 +34,9 @@ The website has been designed to be responsive, intuitive and accessible on a ra
     - [**Testing documentation can be found here in a seperate file**](TESTING.md)
 
 5. [**Deployment**](#deployment)
+    - [**GitHub Pages**](#github-pages)
+    - [**Forking the GitHub Repository**](#forking-the-github-repository)
+    - [**Making a Local Clone**](#making-a-local-clone)
 
 6. [**Credits**](#credits)
     - [**Content**](#content)
@@ -72,6 +77,8 @@ media platforms they are part of.
 I did some research online and came across an article about the 50 best website color schemes for 2021 - [link here](https://designshack.net/articles/trends/best-website-color-schemes/). I picked a combination of colours that I consider to be eye-catching,
 and that it has a certain e-commerce retail finish. 
 
+<img src="assets/images/readme-images-and-documentation/PhototasticCollageTVAcolourscheme.jpg" width="600" height="400" />
+
 There are 4 dominant colours that can be identified on my site:
 
 - <strong>Deep emerald (#1FC58E)</strong> : Used as the background colour for the first slide of the carousel, and as the font color of the remaining slides within the carousel.
@@ -91,14 +98,16 @@ Other colours I have used:
 
 The font I used for all the website is "Space Grotesk".
 
-
+<img src="assets/images/readme-images-and-documentation/Font.png" width="1000" height="300" />
 
 
 
 - ### <h3>Imagery</h3>
 
 All the images I used for my project can be found in the following [link](https://photos.google.com/u/2/album/AF1QipPOBUIe2thesg1mvdwvRcdRUe9_2owb3LXCp19p) 
-Every page of the website has its GitHub folder that contains all the pictures I used.
+Every page of the website has its GitHub folder that contains all the pictures I used. 
+
+I used the site [Unsplash](https://unsplash.com/) to download all my images, with the exception of the ones in the page "about me", I own those ones.
 
 
 ## Wireframes
@@ -108,7 +117,7 @@ All the wireframes I drew can be found in the following [link](https://photos.go
 
 ## Features
 
-The site counts with 6 pages in total
+The site counts with 6 pages in total. There is a static page (shop) that serves as a dropdown menu, and that contains 3 sub-pages.
 
 ### Existing Features
 
@@ -118,15 +127,12 @@ The site counts with 6 pages in total
 
 - The carousel slider on the home page provides the visitors with a nice visual animation, as well as giving them the option to sign up for the newsletter by clicking the button on the first slide.
 
-- There is form validation on subscription form, an alert displays if name or email fields are empty. 
+- There are other 3 call-to-action buttons that can be found on the home page, taking the user to visit all the sections contained in the shop.
 
-- In the first two sections a call to action button prompts the user to another section. 
+- Hover animations are used on the navigation items in the navigation menu (underline from left), and the social media icons (float shadow) in the footer section.
 
-- Hover animations are used on the cards (box shadow appears) in the about section and the social media icons (grow in size) in the footer section.
-
-- Contrasting colours and aria labels are used to ensure site supports visually impaired visitors. 
-
-- Some images of trees can be clicked on and the user will be brought to [another site](https://www.curio-eco.com/world/tagged-trees/2538832?lat=53.34427142201096&lng=-6.316257453758462&zml=18) that pinpoints the exact location of the tree.
+- All the products listed in the page shop, under the categories of vinyl and accessories, are provided via my own website [therecordbloke.com](https://therecordbloke.com). All the clothing products are provided via another third 
+party called [wastedheroes-shop.com](https://www.wastedheroes-shop.com/). The call-to-action buttons will allow the user to go directly to both sites and place orders. 
   
 ### Features Left to Implement
 
@@ -145,13 +151,9 @@ The site counts with 6 pages in total
 
 - Wireframe: [Balsamiq](https://balsamiq.com/)
 
-- Browser Developer tools : [Google Chrome](https://www.google.com/chrome) and [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) (which really helped with fonts, accessibility and images).
-
-- Kanban planner : [Github projects](https://github.com/kenwals/shinrin-yoku/projects/1). 
+- Browser Developer tools : [Google Chrome](https://www.google.com/chrome)
 
 - Markdown editor: [Typora](https://typora.io/) was used when doing spellchecks and big changes to my README.md file, Gitpod editor was used for minor updates.
-
-- Image editing: [Adobe online resize tool](https://www.adobe.com/ie/photoshop/online/resize-image.html) and [tinypng](https://tinypng.com/) compression tool.
 
 - Fonts : [Google Fonts](https://fonts.google.com/)
 
@@ -160,12 +162,6 @@ The site counts with 6 pages in total
 - Colours palette : [Canva](https://www.canva.com/colors/color-palette-generator/) was used for automatically selecting green colours from images.
 
 - Colour tool : [Google Material Design Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=9db769&primary.color=4e5c28&secondary.text.color=000000&primary.text.color=ffffff) was used when trying to decide what colour to use against which background.
-
-- File renaming utility : PowerRename from [PowerToys on Windows 10](https://www.windowscentral.com/how-bulk-rename-your-files-windows-10-powertoys)
-
-- Pomodoro timer : [Tomato Clock](https://chrome.google.com/webstore/detail/tomato-clock/enemipdanmallpjakiehedcgjmibjihj) 
-
-- Overflow rescue tool : [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln) was used for when a scroll left to right appeared on my site on smaller screens.
 
 - HEX to RGB converter : [RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html) and [webfx](https://www.webfx.com/web-design/hex-to-rgb/)
 
@@ -184,42 +180,39 @@ The site counts with 6 pages in total
 ---
 ## Testing
 
-Testing documentation can be found [here in a seperate file](TESTING.md) . 
+ 
 
 ##### back to [contents](#table-of-contents)
 
 ---
 ## Deployment
 
-For easy deployment on GitHub pages you will need a GitHub user account and a possibly a Gitpod user account. If you wish to make changes to this repository, please follow the GitHub steps first. 
-
-**GitHub**
-
-GitHub is a code hosting platform for version control and collaboration. It's free to enrol for a user account and I would recommend you have one if you wish to deploy this repository and make changes.
-
-When you have a GitHub account you can simple click on the Fork button on the top right corner. This is clone the Shinrin-Yoku repository for your GitHub account, then you can make any changes you like.
-
-**Gitpod**
-
-The site can be edited easily on a Gitpod online workspace, you first register a free user account on http://gitpod.io/, then download the Gitpod extension on your preferred internet browser. On signing up you will be expected to  have a GitHub user account.
-
-Once you have the extension on your browser, a green Gitpod button will appear beside this repository in GitHub. For best results fork the repository in your personal account before you open it in Gitpod.
-
 **GitHub Pages**
 
-Once you have the completed site in your own repository, you can deploy to GitHub pages by the following steps.
+The project was deployed to GitHub Pages using the following steps...
 
-1. On GitHub, go to the completed sites repository.
-2. Click on settings, on the settings page scroll down the the GitHub Pages section. 
-3. Under GitHub pages, Select the appropriate branch or folder the index.html is in. 
-4. Click on save. A message should then appear advising the URL of your deployed site.
+1. Log in to GitHub and locate the GitHub Repository.
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu. 
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section. 
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
-**Cloning**
+**Forking**
+
+You may wish to contribute to this website and have your contribution published, if so, you are welcome to follow these steps below.
+
+1. Log in to GitHub and locate the GitHub Repository
+2. Open https://josecastanocoding.github.io/the-vinyl-aficionado/ 
+3. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+4. You should now have a copy of the original repository in your GitHub account.
+
+**Making a Local Clone**
 
 If you prefer working on the repository locally, you can clone the repository to your desktop by the following steps.
 
-1. Go to [the Shinrin-Yoku github page](https://github.com/kenwals/shinrin-yoku).
-2. Above the list of files, click on the code button.
+1. Go to [the vinyl aficionado github page](https://josecastanocoding.github.io/the-vinyl-aficionado/)
+2. Under the repository name, click "Clone or download".
 3. - To clone the repository using HTTPS, under "Clone with HTTPS", click the paste icon. 
    - To clone the repository using an SSH key, click Use SSH, then click the paste icon. 
    - To clone a repository using GitHub CLI, click Use GitHub CLI, then click the paste icon.
@@ -228,21 +221,6 @@ If you prefer working on the repository locally, you can clone the repository to
 5. Type 'git clone', then paste the URL you copied earlier above. 
 6. Press Enter to create your local clone.
 
-more detailed instructions available [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
-
-**Forking**
-
-You may wish to contribute to this website and have your contribution published, if so, you are welcome to follow these steps below.
-
-1. Go to the GitHub website and log in.
-2. Open https://github.com/kenwals/shinrin-yoku 
-3. In the top right-hand corner you will see a fork button, click on this fork button .
-4. This will create a copy the Shinrin-Yoku repository in your github account.
-5. Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository(https://github.com/kenwals/shinrin-yoku).
-6. If your pull request is approved, it will be merged into the master version of the Shinrin-Yoku repository at a future date.
-
-more detailed instructions available [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
-
 ##### back to [contents](#table-of-contents)  
 
 ---
@@ -250,37 +228,31 @@ more detailed instructions available [here](https://docs.github.com/en/free-pro-
 
 ### Content
 
-- [Nature therapy ireland](https://www.instagram.com/naturetherapyireland) 
-- [Shinrin Yoku Finland](https://www.shinrin-yoku.fi/home-en)
-- [Forest Therapy Society,Japan](https://fo-society.jp/therapy/cn45/e_en.html)
-- [Dublin City Council Tree strategy](https://www.dublincity.ie/sites/default/files/media/file-uploads/2018-08/Dublin_City_Tree_Strategy_2016-2020.pdf)
+- [The Record Bloke](https://therecordbloke.com) 
+- [Wasted Heroes](https://www.wastedheroes-shop.com/)
 
 ### Resources
 
-
+- [Code Institute](https://learn.codeinstitute.net/)
+- [Typewolf](https://www.typewolf.com/google-fonts)
+- [Design Shack](https://designshack.net/articles/trends/best-website-color-schemes/)
+- [Unsplash](https://unsplash.com/)
 - [Bootstrap components](https://getbootstrap.com/)
 - [W3schools](https://www.w3schools.com/)
 - [Code institute's Slack workspace channels](https://slack.com)
-- How to make a Kick-Ass first Milestone (part 1, 2 and 3)
 - [CSS tricks](https://css-tricks.com/) 
-- [YouTube](https://www.youtube.com/)
-- [Stack Exchange](https://stackexchange.com/)
+- [Stack Overflow](https://stackoverflow.com/)
 - [Hover.css](https://ianlunn.github.io/Hover/#effects)
-- [MDN Web Docs](https://developer.mozilla.org/en-US/)
-
-### Media
-
-- The photos used in this site were taken by me mostly in Dublin, Ireland. [Album available here](https://photos.google.com/share/AF1QipNpAlgEAwPS5Pjltq_81afFH2kgaHUYhmgoE-poGQhNGkx4mknGbwwCHOTYylgYRw?key=bEFOWWloNGJ6REdpbEZDRzVjd3BROWREaEprTXF3).
+- [CSS Gradient](https://cssgradient.io/gradient-backgrounds/)
 
 ### Acknowledgements
 
-- [This newspaper article from The Irish Times](https://www.irishtimes.com/news/environment/busconnects-final-plans-for-16-dublin-bus-corridors-published-1.4400026 "Irish Times newspaper"). On the back this newspaper article, I was inspired to make this site that could promote the importance of Trees and why they should be cherished and valued more then wider roads in our cities.
-
-- The book ["The Hidden Life of Trees"](https://www.goodreads.com/book/show/28256439-the-hidden-life-of-trees) by Peter Wohlleben.
-
+- [The Record Bloke](https://therecordbloke.com) 
+- [Wasted Heroes](https://www.wastedheroes-shop.com/)
 - Various people at the [code institute](https://codeinstitute.net/) and on the code institute Slack channel.
-
-- [Imbibe](https://imbibe.ie/) Coffee Roasters and [Barry's Tea](https://www.barrystea.ie/).
+- Various people at [LinkedIn](https://www.linkedin.com/)
+- My career consultant Stuart Crang.
+- My mentor Aaron.
 
  ##### back to [contents](#table-of-contents)   
 
