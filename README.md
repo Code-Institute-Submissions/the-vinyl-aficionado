@@ -31,7 +31,8 @@ The website has been designed to be responsive, intuitive and accessible on a ra
 3. [**Technologies Used**](#technologies-used)
 
 4. [**Testing**](#testing)
-    - [**Testing documentation can be found here in a seperate file**](TESTING.md)
+    - [**Testing User Stories**](#testing-user-stories)
+    - [**Bugs and some other challenges**](#bugs-and-some-other-challenges)
 
 5. [**Deployment**](#deployment)
     - [**GitHub Pages**](#github-pages)
@@ -41,7 +42,6 @@ The website has been designed to be responsive, intuitive and accessible on a ra
 6. [**Credits**](#credits)
     - [**Content**](#content)
     - [**Resources**](#resources)
-    - [**Media**](#media)
     - [**Acknowledgements**](#acknowledgements)
 
 ---
@@ -100,8 +100,6 @@ The font I used for all the website is "Space Grotesk".
 
 <img src="assets/images/readme-images-and-documentation/Font.png" width="1000" height="300" />
 
-
-
 - ### <h3>Imagery</h3>
 
 All the images I used for my project can be found in the following [link](https://photos.google.com/u/2/album/AF1QipPOBUIe2thesg1mvdwvRcdRUe9_2owb3LXCp19p) 
@@ -113,7 +111,6 @@ I used the site [Unsplash](https://unsplash.com/) to download all my images, wit
 ## Wireframes
 
 All the wireframes I drew can be found in the following [link](https://photos.google.com/u/2/album/AF1QipOiJG6l1mZ5Ftj5CDdoiU8IgjuenrQRaPbL6DVx)
-
 
 ## Features
 
@@ -133,11 +130,11 @@ The site counts with 6 pages in total. There is a static page (shop) that serves
 
 - All the products listed in the page shop, under the categories of vinyl and accessories, are provided via my own website [therecordbloke.com](https://therecordbloke.com). All the clothing products are provided via another third 
 party called [wastedheroes-shop.com](https://www.wastedheroes-shop.com/). The call-to-action buttons will allow the user to go directly to both sites and place orders. 
+
+### Features left to implement
+
+- Call-to-action on the form located on the page "Contact Us" and submitting details of potential users to a database.
   
-### Features Left to Implement
-
-- Have the subscription form add the visitor details to an email list database. 
-
  ##### back to [contents](#table-of-contents)
 
 ---
@@ -153,34 +150,76 @@ party called [wastedheroes-shop.com](https://www.wastedheroes-shop.com/). The ca
 
 - Browser Developer tools : [Google Chrome](https://www.google.com/chrome)
 
-- Markdown editor: [Typora](https://typora.io/) was used when doing spellchecks and big changes to my README.md file, Gitpod editor was used for minor updates.
+- Gradient generator: [CSS Gradient](https://cssgradient.io/gradient-backgrounds/)
 
 - Fonts : [Google Fonts](https://fonts.google.com/)
 
 - Icons : [Fontawesome](https://fontawesome.com/)
 
-- Colours palette : [Canva](https://www.canva.com/colors/color-palette-generator/) was used for automatically selecting green colours from images.
+- Hover effects : [Hover.css](https://ianlunn.github.io/Hover/#effects)
 
-- Colour tool : [Google Material Design Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=9db769&primary.color=4e5c28&secondary.text.color=000000&primary.text.color=ffffff) was used when trying to decide what colour to use against which background.
-
-- HEX to RGB converter : [RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html) and [webfx](https://www.webfx.com/web-design/hex-to-rgb/)
-
-- Colour contrast checking for Accessibility refinements : [WebAIM](https://webaim.org/resources/contrastchecker/) was used for when trying to decide what colours to use for text against which background colour.
-
-- Favicon creator : [favicon.io](https://favicon.io/favicon-generator/)
-
-- Autoprefixer CSS : [Autoprefixer](https://autoprefixer.github.io/)
-
-- Auto formatter for HTML and CSS : [dirtyMarkUp](https://www.10bestdesign.com/dirtymarkup/) and  [webformatter](https://webformatter.com/html)
-
-- Image conversion tool to WEBP (Next gen image format) : [XnConvert](https://www.xnview.com/en/xnconvert/)
-
+-
 ##### back to [contents](#table-of-contents)  
 
 ---
 ## Testing
 
- 
+ The following tools were utilised to test the website:
+
+ - [Pingdom Website Speed Test](https://tools.pingdom.com/)
+
+ The results of such test can be seen as below:
+
+ <img src="assets/images/readme-images-and-documentation/loadingspeed.PNG" width="400" height="300" />
+
+ - [W3C CSS Validator - Results](https://jigsaw.w3.org/css-validator/validator)
+ - [W3C Markup Validator - Results](https://validator.w3.org/nu/#textarea)
+
+ In regards to the HTML markup, I encountered one error that does not affect the site although it has been marked as non-valid code, see below:
+
+ <img src="assets/images/readme-images-and-documentation/errorhtml.PNG" width="1000" height="300" />
+
+ I have tried numerous types of fixes but I was not successfull to remove the <div> since it sends the dropdown menu far from the dropdown toggle button, the shop.
+
+ In regards to the CSS, no errors. Please see below: 
+
+ <img src="assets/images/readme-images-and-documentation/cssresults.PNG" width="1000" height="300" />
+
+ - [Responsive Web Design](http://ami.responsivedesign.is/)
+
+ The website has been tested in various devices and I have also used the dev tools to make sure that the site renders adequately on all the breakpoints.
+
+### Testing User Stories
+
+-  ### <h3>First Time Visitor Goals</h3>
+
+    1. As a First Time Visitor, I want to browse through the catalogue of products and make enquiries for items I want to purchase.
+        - This has been tested and an user will be more than able to browse through the sections of the shop and select any items, by clicking on the call-to-action buttons to buy the product.
+    2. As a First Time Visitor, I want to analyse the site and evaluate how easy it is to navigate throught it in order to check the products and content.
+        - Navigation menu works perfectly, and each section has an underline efect to make sure the user sees where he/she goes next. On smaller devices such as smartphones, the menu will toggle and
+        still will have all the functionality an user needs.
+    3. As a First Time Visitor, I want to verify testimonials about the quality of the service and find out what real people think about the website. I will also corroborate
+        all their social media channels by clicking on the social media icons displayed on the site, with the aim of getting a deeper insight of their followings on each of the social
+        media platforms they are part of.
+        - Testimonials are shown right on the home page, and all the links to social media channels are working accordingly.
+
+-  ### <h3>Returning Visitor Goals</h3>
+
+    1. As a Returning Visitor, I might want to place an order or follow up on an enquiry I recently made.
+        - All buttons to buy products are fully working so the user will be more than able to perfom such action.
+    2. As a Returning Visitor, I want to check any possible new releases or products available on the website.
+        - The website will be updated with new products on a daily basis so users can come back and check the latest releases.
+    3. As a Returning Visitor, I want to keep up with any promotions running via the official social media accounts of The Vinyl Aficionado website.
+        - Social media channels will always be available for the users just by clicking on the links provided on the site.
+
+### Bugs and some other challenges    
+
+One of the navigation items (shop) tends to come off the alignment with the rest of the items. I managed to apply some padding and center it with the rest of items. However, I have
+noticed that, when being in one of the pages of the shop, the item comes off although we are probably talking a quarter of a cm.
+
+The Carousel slider from bootstrap was challenging and I very much enjoyed breaking down the code and implementing a first slide that will be the main sign of identity of my website, visually speaking.
+
+
 
 ##### back to [contents](#table-of-contents)
 
