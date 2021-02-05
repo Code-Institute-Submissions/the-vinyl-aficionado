@@ -99,7 +99,7 @@ Other colours I have used:
 
 The font I used for all the website is "Space Grotesk".
 
-<img src="assets/images/readme-images-and-documentation/Font.png" width="1000" height="300" />
+<img src="assets/images/readme-images-and-documentation/Font.png" width="1000" height="200" />
 
 - ### <h3>Imagery</h3>
 
@@ -159,7 +159,7 @@ party called [wastedheroes-shop.com](https://www.wastedheroes-shop.com/). The ca
 
 - Hover effects : [Hover.css](https://ianlunn.github.io/Hover/#effects)
 
--
+
 ##### back to [contents](#table-of-contents)  
 
 ---
@@ -176,11 +176,12 @@ party called [wastedheroes-shop.com](https://www.wastedheroes-shop.com/). The ca
  - [W3C CSS Validator - Results](https://jigsaw.w3.org/css-validator/validator)
  - [W3C Markup Validator - Results](https://validator.w3.org/nu/#textarea)
 
- In regards to the HTML markup, I encountered one error that does not affect the site although it has been marked as non-valid code, see below:
+ In regards to the HTML markup, I encountered one error that even though it did not affect the functionality of the site, it was marked as non-valid code, see below:
 
  <img src="assets/images/readme-images-and-documentation/errorhtml.PNG" width="1000" height="300" />
 
- I have tried numerous types of fixes but I was not successfull to remove the div, since it sends the dropdown menu far from the dropdown toggle button, the shop.
+ After trying numerous types of fixes, I eventually managed to cut some code from Bootstrap navbar documentation and embedded it onto my existing navbar code I previously extracted from Bootstrap. The problem of a div element being a child of an ul was solved
+ by changing the div element by a li, which will perfectly fit as a child of an ul. My original classes and id's were kept as they did not need to change at all.
 
  In regards to the CSS, no errors. Please see below: 
 
@@ -220,10 +221,13 @@ noticed that, when being in one of the pages of the shop, the item comes off alt
 
 The Carousel slider from bootstrap was challenging and I very much enjoyed breaking down the code and implementing a first slide that will be the main sign of identity of my website, visually speaking.
 
+The markup of my HTML showed (as previously mentioned) a piece of non-valid code. I was able to fix the issue by using the following [Bootstrap navbar documents](https://getbootstrap.com/docs/5.0/components/dropdowns/)
+
 ### Final layout
 
  - Home Page: I introduced the carousel slider instead of a static photo, as per my wireframe I drew back when I was starting the project.
  - Shop: I deployed a dropdown menu with all the sections of the shop, rather than displaying them all on a single page.
+
 
 ##### back to [contents](#table-of-contents)
 
