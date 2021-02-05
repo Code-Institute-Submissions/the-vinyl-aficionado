@@ -33,6 +33,7 @@ The website has been designed to be responsive, intuitive and accessible on a ra
 4. [**Testing**](#testing)
     - [**Testing User Stories**](#testing-user-stories)
     - [**Bugs and some other challenges**](#bugs-and-some-other-challenges)
+    - [**Final layout**](#final-layout)
 
 5. [**Deployment**](#deployment)
     - [**GitHub Pages**](#github-pages)
@@ -219,7 +220,10 @@ noticed that, when being in one of the pages of the shop, the item comes off alt
 
 The Carousel slider from bootstrap was challenging and I very much enjoyed breaking down the code and implementing a first slide that will be the main sign of identity of my website, visually speaking.
 
+### Final layout
 
+ - Home Page: I introduced the carousel slider instead of a static photo, as per my wireframe I drew back when I was starting the project.
+ - Shop: I deployed a dropdown menu with all the sections of the shop, rather than displaying them all on a single page.
 
 ##### back to [contents](#table-of-contents)
 
