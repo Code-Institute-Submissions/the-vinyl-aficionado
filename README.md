@@ -180,7 +180,7 @@ party called [wastedheroes-shop.com](https://www.wastedheroes-shop.com/). The ca
 
  <img src="assets/images/readme-images-and-documentation/errorhtml.PNG" width="1000" height="300" />
 
- I have tried numerous types of fixes but I was not successfull to remove the <div> since it sends the dropdown menu far from the dropdown toggle button, the shop.
+ I have tried numerous types of fixes but I was not successfull to remove the div, since it sends the dropdown menu far from the dropdown toggle button, the shop.
 
  In regards to the CSS, no errors. Please see below: 
 
